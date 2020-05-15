@@ -1,0 +1,99 @@
+
+#tab_info td{
+   padding-left: 3px;
+   
+}
+
+
+
+
+#date_tab, tr{
+    border-collapse: collapse;
+    border: 1px solid #fff;
+    width: 100%;
+  
+}
+
+#date_tab td, #date_tab th{
+    border: 1px solid #fff;
+}
+
+#date_tab th{
+    padding: 5px;
+    background: #505561;
+    color: #fff;
+  
+}
+
+#date_tab td{
+    color: #505561;
+}
+
+#date_tab{
+    background: white;
+    margin-top: 20px;
+
+}
+
+
+#logo_tech{
+    width: 50%;
+    height: 10%;
+}
+
+
+.headerN{
+    font-size: 20px;
+}
+
+
+
+#compname{
+    color:#3D4452;
+
+}
+
+
+
+#comp2{
+    float: right;
+}
+
+
+
+.indent{
+    font-size: 17px;
+    padding-top: 20px;
+    color: #3A3F4B;
+}
+
+.ows{
+    color: red;
+}
+
+#totalhours{
+    border: 1px solid #7B818E;
+    border-radius: 3px;
+    text-align: center;
+    color: #3A3F4B;
+
+}
+
+#gtot{
+    color:#BE2C2C;
+  
+}
+
+#forget_out{
+    background:rgb(223, 46, 46);
+ 
+}
+
+#latte{
+    background: #b6b4b4;
+    
+}
+
+#latte_noout{
+    background: green;
+}

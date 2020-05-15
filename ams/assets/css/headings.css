@@ -1,0 +1,424 @@
+
+#downdrop{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    width: 5%;
+
+  }
+  .arr{
+      border: 1px solid lightgray;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  margin-left: 6px;
+  padding: 3px;
+
+
+  }
+
+  #datepicker{
+      padding: 4px;
+      border-radius: 2px;
+      border: 1px solid lightgray;
+  }
+
+  #emp{
+    padding: 4px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+  }
+
+
+  .down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .dates{
+      border-radius: 3px;
+      border: 1px solid lightgray;
+  }
+
+  .dates_butt{
+      border-radius: 2px;
+      background: #fff;
+      color: #BE2C2C;
+      padding: 6px 10px;
+          border: none; 
+  }
+
+    .print_butt{
+      border-radius: 2px;
+      background: #F3F7F9;
+      border: 1px solid lightgray;
+      color: #222d32;
+      padding: 5px 10px;
+       
+  }
+
+  .dates_butt:hover{
+      background: #fff;
+  }
+
+  .delete-data{
+      color: red;
+      font-size: 20px;
+  }
+
+  .delete_emp{
+    color: red;
+    font-size: 20px;
+  }
+
+  .recyc{
+    color: #3c8dbc;
+    font-size: 20px;
+   
+  }
+
+  .edit-data{
+   
+      font-size: 20px;
+  }
+
+  #visit{
+    font-size: 20px;
+  }
+
+  .outin{
+    font-size: 18px;
+    color:#fff;
+    background: #222d32;
+  }
+
+  .outin:hover:not(.active) {
+    background: #222d32;
+
+    color: #fff;
+  }
+
+
+  .main-sidebar{
+    background: #fff;
+    color: #212121;
+  }
+
+  .main-header{
+    /* background: #222d32; */
+    box-shadow: 1px 1px 3px 1px lightgray;
+    background: #5b9bd5;
+  }
+
+  .res, .res2, .sidemin{
+    color:#fff;
+ 
+
+  }
+
+  .res:hover, .res2:hover, .sidemin:hover{
+    text-decoration: none;
+  }
+
+
+ .sidemin
+{
+  color: #fff;
+}
+
+.sidebar-menu li{
+  text-decoration: none;
+}
+
+.sidebar-menu li a{
+  text-decoration: none;
+  color: #212121;
+}
+
+.sidebar-menu li a:hover{
+  background: #F3F7F9;
+  border-left: 2px solid #368DB0;
+  padding: none;
+}
+
+.header{
+  background: #ecf0f5;
+}
+
+#insert{
+  background: #BE2C2C;
+  color: #fff;
+  border: transparent;
+}
+
+#update{
+  background: #BE2C2C;
+  color: #fff;
+  border: transparent;
+
+}
+
+#delete{
+  background: #BE2C2C;
+  color: #fff;
+  border: transparent;
+
+}
+
+#update_img{
+  background: #BE2C2C;
+  color: #fff;
+  border: transparent;
+}
+
+
+#insert:hover, #update:hover{
+  background: #DF2828;
+}
+
+input[name=emp_rfid]{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  width: 250px;
+  padding: 8px;
+}
+
+input[name=ed_ad_uname], input[name=ed_ad_email]{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 8px;
+  width: 250px;
+}
+
+input[name=new_pass], input[name=conf_pass], input[name=pass1]{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 8px;
+  width: 250px;
+}
+
+input[name=pass], input[name=emp_fname], input[name=emp_mname],input[name=emp_lname]{
+
+  border: none;
+  border-bottom: 1px solid lightgray;
+  width: 250px;
+  padding: 8px;
+
+  margin-left: 30px;
+
+}
+
+input[name=pass_head]{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  width: 250px;
+  padding: 8px;
+}
+
+.con{
+  font-size: 27px;
+}
+
+#adminform{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 30%;
+  justify-items:end;
+}
+
+input[name=add_sub]{
+    
+    
+  padding: 7px 10px;
+  border-radius: 4px;
+  border: transparent;
+  background:#BE2C2C;
+  color: #fff;
+  margin-left: 85%;
+
+}
+
+#back{
+    
+    
+  padding: 7px 12px;
+  border-radius: 2px;
+  border: transparent;
+  
+  background:white;
+  color: #212121;
+
+
+}
+
+input[name=add_sub]:hover{
+background: #DF2828;
+}
+
+
+input[name=sub]{
+    
+    
+    padding: 7px 12px;
+    border-radius: 2px;
+    border: transparent;
+    background:#BE2C2C;
+    color: #fff;
+    margin-left: 90%;
+ 
+}
+
+input[name=sub]:hover{
+  background: #DF2828;
+}
+
+input[name=can]{
+
+    padding: 6px;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    background: #fff;
+    color: #212121;
+ 
+}
+
+input[name=can]:hover{
+  background: #F0F0F0;
+}
+
+@media(max-width: 1400px){
+
+input[name=sub]{
+    
+    
+    padding: 7px 12px;
+    border-radius: 2px;
+    border: transparent;
+    background:#BE2C2C;
+    color: #fff;
+    margin-left: 5%;
+ 
+}
+
+input[name=sub]:hover{
+  background: #DF2828;
+}
+
+input[name=can]{
+
+ 
+    padding: 6px;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    background: #fff;
+    color: #212121;
+ 
+}
+
+input[name=can]:hover{
+  background: #F0F0F0;
+}
+}
+
+
+
+
+input[name=emp_id], input[name=fname], input[name=mname], input[name=lname]{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 8px;
+  width: 250px;
+}
+
+input[name=ed_emp_id], input[name=ed_fname], input[name=ed_mname], input[name=ed_lname]{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 8px;
+  width: 450px;
+}
+
+#btnimg{
+  cursor:pointer;
+  background: white;
+  color: black;
+  border: transparent;
+  border-radius: 3px;
+  padding: 5px 8px;
+  box-shadow: 0 0 3px 1px lightgray;
+  float: right;
+}
+
+#ed_btnimg{
+  cursor:pointer;
+  background: white;
+  color: black;
+  border: transparent;
+  border-radius: 3px;
+  padding: 5px 8px;
+  box-shadow: 0 0 3px 1px lightgray;
+
+}
+
+#caption_up{
+  color: gray;
+  font-size: 20px;
+}
+
+#ed_caption_up{
+  color: gray;
+  font-size: 20px;
+}
+
+#dell th{
+
+  padding: 7px;
+}
+
+
+
+.dp{
+
+ width: 150px;
+ height: 150px;
+ border-radius: 2px;
+ 
+
+}
+
+
+#emp_info{
+  display: grid;
+  grid-template-columns:15% 85%;
+  grid-gap: 1em;
+}
+
+
+@media(max-width: 1000px){
+  #emp_info{
+    display: grid;
+  grid-template-columns:80%;
+  grid-gap: 1em;
+  }
+}
+
+
+#empinfo_name{
+  font-size: 25px;
+
+}
+
+#pick{
+    margin-top: 1em;
+    float: left;
+}
+
+#pick_print{
+  margin-top: 1em;
+  float: right;
+}
+
+
+
+
+#ed_rf{
+  font-size: 13px;
+}

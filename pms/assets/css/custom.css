@@ -1,0 +1,15 @@
+table img{
+  border-radius: 5px;
+  padding: 1px 1px;
+  border: 1px solid #ccc;
+  height: 45px;
+  width: 45px;
+}
+.dataTables_filter {
+   width: 50%;
+   float: right;
+   text-align: right;
+}
+td.value, th{
+  text-align: center;
+}

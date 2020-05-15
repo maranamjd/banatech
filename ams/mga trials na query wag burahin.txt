@@ -1,0 +1,5 @@
+ 
+
+select b.fname, b.mname, b.lname,b.emp_id, a.time_in from date_in_tbl a inner join user_tbl b GROUP BY emp_id;
+
+select b.fname, b.mname, b.lname, a.emp_id, MIN(a.time_in) from date_in_tbl a inner join user_tbl b where b.emp_id = a.emp_id GROUP BY emp_id;

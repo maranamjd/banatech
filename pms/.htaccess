@@ -1,0 +1,114 @@
+Options -Indexes
+Options +FollowSymlinks
+RewriteEngine on
+
+
+# section for HR{
+
+#for employeeinformation.php
+RewriteRule ^employees/ hr/employeeinformation.php [NC,L]
+
+#for addemployee.php
+RewriteRule ^newemployee/ hr/addemployee.php [NC,L]
+
+#for upload.php
+RewriteRule ^employee-upload/ hr/upload.php [NC,L]
+
+#for bin.php
+RewriteRule ^inactiveemployees/ hr/bin.php [NC,L]
+
+#for hr index.php
+RewriteRule ^home-hr/ hr/index.php [NC,L]
+
+#for hr profile.php
+RewriteRule ^profile-hr/ hr/profile.php [NC,L]
+
+#for hr editprofile.php
+RewriteRule ^edit-hr/ hr/editprofile.php [NC,L]
+
+#for hr changepassword.php
+RewriteRule ^passwordchange-hr/ hr/changepassword.php [NC,L]
+
+#for hr processpayroll.php
+RewriteRule ^payroll/ hr/processpayroll.php [NC,L]
+
+#for hr uploaddtr.php
+RewriteRule ^dtr/ hr/uploaddtr.php [NC,L]
+
+#for hr sendpayslip.php
+RewriteRule ^payslip/ hr/sendpayslip.php [NC,L]
+
+#for employee hrpayslip.php
+RewriteRule ^mypayslip-hr/ hr/hrpayslip.php [NC,L]
+
+#for hr viewdtr.php
+RewriteRule ^mydtr-hr/ hr/viewdtr.php [NC,L]
+
+# } end section for HR
+
+
+# section for ACCOUNTING{
+
+#for accounting index.php
+RewriteRule ^home-ac/ accounting/index.php [NC,L]
+
+#for accounting acprofile.php
+RewriteRule ^profile-ac/ accounting/acprofile.php [NC,L]
+
+#for accounting editacprofile.php
+RewriteRule ^edit-ac/ accounting/editacprofile.php [NC,L]
+
+#for accounting achangepassword.php
+RewriteRule ^passwordchange-ac/ accounting/achangepassword.php [NC,L]
+
+#for accounting loans.php
+RewriteRule ^loans/ accounting/loans.php [NC,L]
+
+#for upload.php
+RewriteRule ^upload/ accounting/upload.php [NC,L]
+
+
+#for employee hrpayslip.php
+RewriteRule ^mypayslip-ac/ accounting/acpayslip.php [NC,L]
+
+#for accounting viewdtr.php
+RewriteRule ^mydtr-ac/ accounting/viewdtr.php [NC,L]
+
+
+# } end section for EMPLOYEE
+
+
+# section for employee{
+
+#for employee index.php
+RewriteRule ^home/ employee/index.php [NC,L]
+
+#for employee employeepslip.php
+RewriteRule ^mypayslip/ employee/employeepslip.php [NC,L]
+
+#for employee emprofile.php
+RewriteRule ^profile/ employee/emprofile.php [NC,L]
+
+#for employee editemprofile.php
+RewriteRule ^edit/ employee/editemprofile.php [NC,L]
+
+#for employee echangepassword.php
+RewriteRule ^passwordchange/ employee/echangepassword.php [NC,L]
+
+#for employee viewdtr.php
+RewriteRule ^mydtr/ employee/viewdtr.php [NC,L]
+
+
+# } end section for EMPLOYEE
+
+# reset password{
+
+#for employee reset password
+RewriteRule ^reset/([0-9a-zA-Z\=]+)/([0-9a-zA-Z\=]+)/([0-9a-zA-Z]+)$ users/reset.php?email=$1&id=$2&hash=$3 [L]
+
+
+#for download payslip
+RewriteRule ^download/([0-9a-zA-Z\=\+]+)/([0-9a-zA-Z\=\+]+)/([0-9a-zA-Z\=\+]+)/([0-9a-zA-Z\-\+]+)$ functions/downloadpayslip.php?year=$1&month=$2&day=$3&id=$4 [L]
+
+
+# } end reset password
